@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "rss": "https://pp213-web.github.io/GCB1/",
+  "discord": {
+    "clientId": "1086936373057040395",
+    "smallImageText": "Change me through Nebula",
+    "smallImageKey": "big"
+  },
+  "servers": [
+    {
+      "id": "GCB-1.20.4",
+      "name": "GCB (Minecraft 1.20.4)",
+      "description": "GCB Running Minecraft 1.20.4",
+      "icon": "http://localhost:8080/servers/GCB-1.20.4/icon.png",
+      "version": "2.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "fabric-api-0.97.2+1.20.4.jar",
+          "name": "fabric-api-0.97.2+1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2187410,
+            "url": "http://localhost:8080/servers/GCB-1.20.4/files/mods/fabric-api-0.97.2+1.20.4.jar",
+            "MD5": "2733c159c2f7628983a96b442ca3f823",
+            "path": "mods/fabric-api-0.97.2+1.20.4.jar"
+          }
+        },
+        {
+          "id": "gcb-1.0.15.jar",
+          "name": "gcb-1.0.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47541,
+            "url": "http://localhost:8080/servers/GCB-1.20.4/files/mods/gcb-1.0.15.jar",
+            "MD5": "aad95f299cf1d6a570e18270c61e0a32",
+            "path": "mods/gcb-1.0.15.jar"
+          }
+        },
+        {
+          "id": "iris-1.7.2+mc1.20.4.jar",
+          "name": "iris-1.7.2+mc1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2703697,
+            "url": "http://localhost:8080/servers/GCB-1.20.4/files/mods/iris-1.7.2+mc1.20.4.jar",
+            "MD5": "fa3647d1891a719b268c636236d989c2",
+            "path": "mods/iris-1.7.2+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "sodium-fabric-0.5.8+mc1.20.4.jar",
+          "name": "sodium-fabric-0.5.8+mc1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 949085,
+            "url": "http://localhost:8080/servers/GCB-1.20.4/files/mods/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac",
+            "path": "mods/sodium-fabric-0.5.8+mc1.20.4.jar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "GCB-1.21",
+      "name": "GCB (Minecraft 1.21)",
+      "description": "GCB Running Minecraft 1.21",
+      "icon": "http://localhost:8080/servers/GCB-1.21/icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "gcb-1.0.18.jar",
+          "name": "gcb-1.0.18.jar",
+          "type": "File",
+          "artifact": {
+            "size": 67681,
+            "url": "http://localhost:8080/servers/GCB-1.21/files/mods/gcb-1.0.18.jar",
+            "MD5": "8d33cc0f388abe97facdf4a4bea8df78",
+            "path": "mods/gcb-1.0.18.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
